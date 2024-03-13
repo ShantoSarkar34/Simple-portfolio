@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'hover.css/css/hover.css';
+
+.text_gradient {
+  background: linear-gradient(
+    to right,
+    #8750f7 0%,
+    #ffffff 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hvr-underline-from-left::before{
+    background:  linear-gradient(260deg, #2a1454 0%, #8750f7 100%) !important ;
+    height:  2px;
+}
+
+.hvr-radial-out::before{
+    background: #8750f7 !important;
+}
+
+.btn-primary {
+    text-decoration: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    gap: 10px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    line-height: 1;
+    text-transform: capitalize;
+    background-size: 200%;
+    background-image: linear-gradient(to right, #8750f7 0%, #2a1454 51%, #8750f7 100%);
+    border: none;
+    border-radius: 50px;
+    padding: 17px 35px;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.btn-primary:hover {
+    background-position: -100%;
+}
+
+
+/* hero sectio start  */
+
+.hero-bg{
+    background:linear-gradient(to right, #0F0715 0%, #1B0E2D 100%) ;
+}
+
+.hero-image-box {
+    border-radius: 38px;
+    -ms-transform: rotate(4.29deg);
+    transform: rotate(4.29deg);
+    position: relative;
+    border: 2px solid #2a1454;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.hero-image-box:hover{
+    border: 2px solid #8750f7;
+    transform: rotate(0);
+
+}
