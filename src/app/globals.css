@@ -3,6 +3,7 @@
 @tailwind utilities;
 @import 'hover.css/css/hover.css';
 
+
 .text_gradient {
   background: linear-gradient(
     to right,
@@ -21,6 +22,16 @@
 .hvr-radial-out::before{
     background: #8750f7 !important;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: #8750f7 #2a1454;
+}
+
 
 .btn-primary {
     text-decoration: none;
@@ -53,6 +64,64 @@
 
 /* hero sectio start  */
 
+.text_animation .intro_text svg {
+    font-family: 'Russo One', sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%) scale(1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    animation: 3s pulsate infinite alternate ease-in-out;
+}
+
+@keyframes pulsate{
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.05);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+.text_animation .intro_text svg text.animate-stroke {
+    animation: stroke 4s;
+    opacity: 0.7;
+}
+.text_animation .intro_text svg text {
+    text-transform: uppercase;
+    stroke-width: 1.5;
+    stroke: #2a1454;
+    fill: transparent;
+    font-size: 240px;
+    display: inline-block;
+    opacity: 0;
+}
+
+
+@keyframes stroke{
+    0% {
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 0 50%;
+        stroke-width: 1;
+    }
+    100% {
+        stroke-dashoffset: 100%;
+        stroke-dasharray: 100% 0;
+        stroke-width: 1;
+    }
+}
+
+
+
+
 .hero-bg{
     background:linear-gradient(to right, #0F0715 0%, #1B0E2D 100%) ;
 }
@@ -72,4 +141,36 @@
     border: 2px solid #8750f7;
     transform: rotate(0);
 
+}
+
+.hero-section::before {
+    content: "";
+    width: 322px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 308px;
+    border-radius: 50%;
+    background: linear-gradient(260deg, #8750f7 0%, #7343d200 100%);
+    -webkit-filter: blur(150px);
+    filter: blur(150px);
+    margin-right: -5%;
+    margin-top: -5%;
+    z-index: -1;
+}
+
+
+.hero-image-box2:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: linear-gradient(260deg, #8750f7 0%, #7343d200 100%);
+    -webkit-filter: blur(150px);
+    filter: blur(150px);
+    margin-left: 10%;
+    margin-bottom: -5%;
 }
