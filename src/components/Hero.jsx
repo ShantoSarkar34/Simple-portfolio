@@ -33,7 +33,11 @@ const Hero = () => {
           {/* hero image start  */}
           <div className="flex justify-center lg:justify-end lg:row-span-2 relative">
             <div className="hero-image-box2"></div>
-            <Image src={hero_img} alt="hero_img" className="hero-image-box" />
+            <Image
+              src={hero_img}
+              alt="hero_img"
+              className="hero-image-box w-80 lg:w-[27rem]"
+            />
           </div>
           <div className="space-y-5 lg:space-y-2">
             <p className=" max-w-[550px] w-full mb-0 text-[20px] font-light text-[#dddddd]">
@@ -41,15 +45,17 @@ const Hero = () => {
               focussed solutions that connect billions of people
             </p>
             {/* button start  */}
-            <div className="flex items-center gap-8 lg:pt-10">
-              <Link
-                href={"#"}
-                className="text-[15px] leading-[1] font-medium text-[#8750f7] rounded-[50px]
+            <div className="flex flex-col gap-10 md:flex-row md:items-center md:gap-8 pt-10">
+              <div>
+                <Link
+                  href={"#"}
+                  className="text-[15px] leading-[1] font-medium text-[#8750f7] rounded-[50px]
                  py-[17px] px-[35px] border border-[#8750f7] tracking-[1px] transition-all
                   duration-300 hover:bg-[#8750f7] hover:text-[#dddddd]"
-              >
-                Download CV
-              </Link>
+                >
+                  Download CV
+                </Link>
+              </div>
               <div className="flex items-center gap-5">
                 <Link
                   href={"#"}

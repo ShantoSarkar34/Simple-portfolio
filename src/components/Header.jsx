@@ -53,7 +53,7 @@ export default function Header() {
       >
         <Link
           activeClass="active"
-          to="hero"
+          to="service"
           spy={true}
           smooth={true}
           offset={-70}
@@ -71,7 +71,7 @@ export default function Header() {
       >
         <Link
           activeClass="active"
-          to="hero"
+          to="work"
           spy={true}
           smooth={true}
           offset={-70}
@@ -155,7 +155,7 @@ export default function Header() {
   return (
     <Navbar
       id="header"
-      className={`container mx-auto  px-4 w-full py-4 bg- transition-all duration-300 fixed shadow-none lg:px-20 z-50 max-w-full rounded-none border-none ${
+      className={`container mx-auto  px-4 w-full py-4 bg- transition-all duration-300 fixed shadow-none  z-50 max-w-full rounded-none border-none ${
         scroll ? " bg-[#050709]" : "bg-transparent"
       }`}
     >
@@ -181,7 +181,7 @@ export default function Header() {
           <Button
             variant="gradient"
             size="sm"
-            className="text-[15px] leading-[22px] font-bold text-white normal-case py-2 px-7 rounded-full btn-primary mr-[1.5rem] lg:mr-0  "
+            className="text-[15px] leading-[22px] font-bold text-white normal-case py-2 px-7 rounded-full btn-primary  lg:mr-0  "
           >
             Hire Me!
           </Button>
