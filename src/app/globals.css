@@ -186,6 +186,10 @@
   );
 }
 
+.service_bg:hover .arrow-direction-change{
+  rotate: -90deg;
+}
+
 /* portfolio section start  */
 
 .portfolio-box:before {
@@ -243,6 +247,7 @@
   transform: translateY(15px);
   background: linear-gradient(260deg, #2a1454 0%, #8750f7 100%);
 }
+
 
 /* experience section start  */
 

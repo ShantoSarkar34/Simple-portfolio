@@ -27,7 +27,7 @@ const Service = () => {
                 integritiy focussed solutions that connect billions of people
               </p>
               <div className=" absolute top-5 md:top-[40%] right-[5%]">
-                <GoArrowRight className="arrow-direction-change text-3xl lg:text-[34px] rotate-[-45deg]" />
+                <GoArrowRight className="text-3xl lg:text-[34px] rotate-[-45deg]" />
               </div>
             </div>
           </div>
@@ -44,7 +44,7 @@ const Service = () => {
                 integritiy focussed solutions that connect billions of people
               </p>
               <div className=" absolute top-5 md:top-[40%] right-[5%]">
-                <GoArrowRight className="arrow-direction-change text-3xl lg:text-[34px] rotate-[45deg]" />
+                <GoArrowRight className="arrow-direction-change text-3xl lg:text-[34px] rotate-[45deg] transition-all duration-500" />
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@ const Service = () => {
                 integritiy focussed solutions that connect billions of people
               </p>
               <div className=" absolute top-5 md:top-[40%] right-[5%]">
-                <GoArrowRight className="arrow-direction-change text-3xl lg:text-[34px] rotate-[45deg]" />
+                <GoArrowRight className="arrow-direction-change text-3xl lg:text-[34px] rotate-[45deg] transition-all duration-500" />
               </div>
             </div>
           </div>
@@ -78,7 +78,7 @@ const Service = () => {
                 integritiy focussed solutions that connect billions of people
               </p>
               <div className=" absolute top-5 md:top-[40%] right-[5%]">
-                <GoArrowRight className="arrow-direction-change text-3xl lg:text-[34px] rotate-[45deg]" />
+                <GoArrowRight className="arrow-direction-change text-3xl lg:text-[34px] rotate-[45deg] transition-all duration-500" />
               </div>
             </div>
           </div>

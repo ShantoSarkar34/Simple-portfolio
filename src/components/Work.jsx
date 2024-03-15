@@ -68,7 +68,7 @@ const Work = () => {
                       Project was about precision and information.
                     </p>
                   </div>
-                  <GoArrowRight className="arrow-direction-change text-3xl lg:text-[34px] rotate-[-45deg] text-white" />
+                  <GoArrowRight className="work_icon text-3xl lg:text-[34px] rotate-[-45deg] text-white" />
                 </div>
               </div>
             </div>
@@ -86,7 +86,7 @@ const Work = () => {
                       Project was about precision and information.
                     </p>
                   </div>
-                  <GoArrowRight className="arrow-direction-change text-3xl lg:text-[34px] rotate-[-45deg] text-white" />
+                  <GoArrowRight className="work_icon text-3xl lg:text-[34px] rotate-[-45deg] text-white" />
                 </div>
               </div>
             </div>
@@ -104,7 +104,7 @@ const Work = () => {
                       Project was about precision and information.
                     </p>
                   </div>
-                  <GoArrowRight className="arrow-direction-change text-3xl lg:text-[34px] rotate-[-45deg] text-white" />
+                  <GoArrowRight className="work_icon text-3xl lg:text-[34px] rotate-[-45deg] text-white" />
                 </div>
               </div>
             </div>
@@ -122,7 +122,7 @@ const Work = () => {
                       Project was about precision and information.
                     </p>
                   </div>
-                  <GoArrowRight className="arrow-direction-change text-3xl lg:text-[34px] rotate-[-45deg] text-white" />
+                  <GoArrowRight className="work_icon text-3xl lg:text-[34px] rotate-[-45deg] text-white" />
                 </div>
               </div>
             </div>
