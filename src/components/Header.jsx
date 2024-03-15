@@ -88,7 +88,7 @@ export default function Header() {
       >
         <Link
           activeClass="active"
-          to="hero"
+          to="exp"
           spy={true}
           smooth={true}
           offset={-70}
@@ -105,7 +105,7 @@ export default function Header() {
       >
         <Link
           activeClass="active"
-          to="hero"
+          to="skills"
           spy={true}
           smooth={true}
           offset={-70}
@@ -122,7 +122,7 @@ export default function Header() {
       >
         <Link
           activeClass="active"
-          to="hero"
+          to="testimonials"
           spy={true}
           smooth={true}
           offset={-70}
@@ -139,7 +139,7 @@ export default function Header() {
       >
         <Link
           activeClass="active"
-          to="hero"
+          to="contact"
           spy={true}
           smooth={true}
           offset={-70}

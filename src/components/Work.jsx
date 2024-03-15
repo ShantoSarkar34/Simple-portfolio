@@ -54,7 +54,7 @@ const Work = () => {
             </div>
           </div>
         </div>
-        <div className="  grid gap-5 lg:grid-cols-2">
+        <div className="  grid gap-5 md:grid-cols-2">
           <div className="relative">
             <div className="portfolio-item">
               <Image src={portfolio_2} alt="portfolio" className="" />
