@@ -1,6 +1,6 @@
 "use client";
 import "@fontsource/russo-one";
-import SmoothScroll from "@/components/smoothscroll/smoothscroller";
+// import SmoothScroll from "@/components/smoothscroll/smoothscroller";
 import React from "react";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
